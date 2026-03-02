@@ -21,9 +21,6 @@ class CollectorSearchConnectorCommunicationFactory extends AbstractCommunication
         return $this->getProvidedDependency(CollectorSearchConnectorDependencyProvider::FACADE_COLLECTOR);
     }
 
-    /**
-     * @return \Spryker\Zed\CollectorSearchConnector\Dependency\Facade\CollectorSearchConnectorToStoreInterface
-     */
     public function getStoreFacade(): CollectorSearchConnectorToStoreInterface
     {
         return $this->getProvidedDependency(CollectorSearchConnectorDependencyProvider::FACADE_STORE);

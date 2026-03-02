@@ -9,8 +9,5 @@ namespace Spryker\Zed\CollectorSearchConnector\Dependency\Facade;
 
 interface CollectorSearchConnectorToStoreInterface
 {
-    /**
-     * @return bool
-     */
     public function isDynamicStoreEnabled(): bool;
 }

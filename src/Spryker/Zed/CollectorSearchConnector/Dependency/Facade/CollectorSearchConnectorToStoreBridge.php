@@ -24,9 +24,6 @@ class CollectorSearchConnectorToStoreBridge implements CollectorSearchConnectorT
         $this->storeFacade = $storeFacade;
     }
 
-    /**
-     * @return bool
-     */
     public function isDynamicStoreEnabled(): bool
     {
         return $this->storeFacade->isDynamicStoreEnabled();
